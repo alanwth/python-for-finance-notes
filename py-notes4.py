@@ -13,7 +13,7 @@ df = pd.read_csv('tsla.csv', parse_dates = True, index_col = 0)
 #df['100ma'] = df['Adj Close'].rolling(window=100).mean
 
 #resampling the data
-df_ohlc = df['Adj CLose].resample('10D').ohlc()
+df_ohlc = df['Adj CLose'].resample('10D').ohlc()
 df_volume = df['Vloume'].resample('10D").sum()
 
 #reseting the date
