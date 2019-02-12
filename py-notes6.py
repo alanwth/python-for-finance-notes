@@ -46,4 +46,4 @@ def get_data_from_yahoo(reload_sp500=False)
           df.to_csv('stock_dfs/{}.csv'.format(ticker))
       else:
           print('Already have ()'. format(ticker))
-       
+        
