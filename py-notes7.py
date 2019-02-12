@@ -71,5 +71,5 @@ def compile_data():
             print(count)
                               
     print(main_df.head())
-    main_df.to_csv('sp500_joined_closes')
+    main_df.to_csv('sp500_joined_closes.csv')
             
