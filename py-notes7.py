@@ -1,6 +1,6 @@
 #Extracting data from web tables
 import bs4 as bs
-imprt datetime as dt
+import datetime as dt
 import os
 import pandas as pd
 import pandas_datareader.data as web
